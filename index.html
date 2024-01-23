@@ -1,321 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>SWORLD</title>
-<link rel="icon" href="https://webstockreview.net/images/economy-clipart-dollar-note-11.png">
-
-<style>
-
-
-
-body {
-
-  color: black;
-}
-.sd{
- font-family:Lucida Handwriting;
-border-color:rgba(100,100,100,0.4);
-border-style:groove;
-border-start-start-radius:10px;
-border-start-end-radius:10px;
- background: url(https://thumbs.dreamstime.com/b/fashion-texture-background-11704476.jpg);
-
-  background-repeat: repeat-x; 
-
-color:Black;
-}
-
-.split {
-
-  text-decoration:none;
-  color:white;
-  height: 100%;
-  width: 33%;
-  margin:0px 8px;
- position: absolute;
-
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-animation-name: example;
-  animation-duration: 2.5s;
-  animation-delay: 0s;
-animation-fill-mode: both;
-  left: 0;
-background-color: #111;
-transition: width 1s ,z-index 3s;
-}
-
-
-
-.middle {
-animation-name: exampl;
-  animation-duration: 3s;
-  animation-delay: 0s;
-animation-fill-mode: both;
-  left:33%;
-  background-color: pink;
-transition: width 1s,left 1s;
-
-}
-
-
-.right {
-animation-name: examp;
-  animation-duration: 3s;
-  animation-delay: 0s;
-animation-fill-mode: both;
-  right: 0;
-  background-color:crimson;
-transition: width 1s ,z-index 1s;
-}
-
-
-.hide1,.hide2,.hide3{
-left:-100vw;
-transition: width 0.5s;}
-.hide1:target{
-background-color:black; }
-.hide2:target{
-background-color:pink;}
-.hide3:target{
-background-color:crimson;}
-
-.split:target{
-overflow-x: hidden;
-z-index:3;
-left:0;
-height:100%;
-width:98.9%;
-margin:0px 8px;
-position:absolute;
-}
-
-.left:hover{
-z-index:1;
-width:60%;}
-.middle:hover{
-z-index:1;
-left:0px;
-width:60%;}
-.right:hover{
-z-index:1;
-width:60%;}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.centered img {
-  height:150px;
-  width: 150px;
-border-radius: 50%;
-
-}
-.leften {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.leften img {
-  height:150px;
-  width: 150px;
-border-radius: 50%;
-
-}
-.righten {
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.righten img {
-  height:150px;
-  width: 200px;
-border-radius: 50%;
-
-}
-@keyframes example {  
-  0% {background-color:red; left:66%; }
-
-
-  50% {background-color:pink;}
-  100% {background-color:black; left:0px; }
-}
-@keyframes exampl {  
-
-  0% {background-color:black; left:0px; }
-  100% {background-color:pink; left:33%; }
-}
-@keyframes examp{  
-
-
-  0% {background-color:pink;right:33% ; }
-  100% {background-color:crimson; right:0px; }
-}
-
-.dropbtn {
-  background-color: #444;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: groove;
-  cursor: pointer;
-border-radius:10px;
-
-}
-.dropdown {
-  position: absolute;
-  right:30px;
-  top:20px;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown:hover .dropbtn {
-  background-color: #111111;
-}
-
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfoliO</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
-
-
 <body>
-<div class="header">
-<h1 class="sd" style="font-size:50px;  margin:0px; padding-top:10px; padding-left:20px; padding-bottom:5px; ">FASHION CORNER</h1>
+    <div class="loader">lorem*50</div>
+<div class="main">
+    <div class="page p1">
+    </div>
+    <div class="page p2"></div>
+    <div class="page p3">
+        <div class="head1"  data-scroll data-scroll-speed="-2">About Me</div>
+        <div class="head2" >About Us</div>
+        
 
-<div class="dropdown">
-  <button class="dropbtn">Contact Us</button>
-  <div class="dropdown-content">
-  <a href="mailto:sagarthakre159@gmail.com">Send Email</a>
-  <a href="tel:+919301783377">Call us </a>
-  </div>
+    </div>
+    <div class="page p4">
+    </div>
+    <div class="page p5"></div>
+    <div class="page p6"></div>
 </div>
-</div>
-
-<div class="split hide1" id="one">
-<h1 style="text-align:center; font-family:Lucida Handwriting; ">Men's Fashion Store</h1>
-  <div class="centered">
-   <a href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&fm=neo%2Fmerchandising&iid=M_e8ee8e1b-05e4-4850-8d58-b3633691b4ff_1_372UD5BXDFYS_MC.AHHHWF67UPNB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear~All_AHHHWF67UPNB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=AHHHWF67UPNB"> <img src="https://backend.insideiim.com/wp-content/uploads/2015/08/Flipkart-logo-insideiim.png" alt="Avatar woman" style="border-radius:0%;"> </a>
-    <h2>Flipkart Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-<div class="leften">
-   <a href="https://www.amazon.in/gp/browse.html?node=1968024031&ref_=nav_em_sbc_mfashion_clothing_0_2_10_2"> <img src="https://askgalore.com/wp-content/uploads/2020/08/amazon-buy-logo-online-shop-icon-amazon-icon-png-512_512.png" style="border-radius:0%;"> </a>
-    <h2>Amazon Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-<div class="righten">
-   <a href="https://www.myntra.com/shop/men"> <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_930,h_620/https://aartisto.com/wp-content/uploads/2020/11/myntra-930x620.png" style="border-radius:0%;"> </a>
-    <h2>Myntra Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-</div>
-
-
-<div class="split hide2" id="two">
-<h1 style="text-align:center; font-family:Lucida Handwriting; ">Women's Fashion Store</h1>
-  <div class="centered">
-   <a href="https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p[]=facets.ideal_for%255B%255D%3DWomen&p[]=facets.ideal_for%255B%255D%3Dwomen&otracker=categorytree&otracker=nmenu_sub_Women_0_Topwear&otracker=nmenu_sub_Women_0_Topwear&otracker=nmenu_sub_Women_0_Topwear"> <img src="https://backend.insideiim.com/wp-content/uploads/2015/08/Flipkart-logo-insideiim.png" alt="Avatar woman" style="border-radius:0%;"> </a>
-    <h2>Flipkart Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-<div class="leften">
-   <a href="https://www.amazon.in/gp/browse.html?node=1953602031&ref_=nav_em_sbc_wfashion_clothing_0_2_11_2"> <img src="https://askgalore.com/wp-content/uploads/2020/08/amazon-buy-logo-online-shop-icon-amazon-icon-png-512_512.png" style="border-radius:0%;"> </a>
-     <h2>Amazon Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-<div class="righten">
-   <a href="https://www.myntra.com/shop/women"> <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_930,h_620/https://aartisto.com/wp-content/uploads/2020/11/myntra-930x620.png" style="border-radius:0%;"> </a>
-    <h2>Myntra Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-</div>
-
-<div class="split hide3" id="three">
-<h1 style="text-align:center; font-family:Lucida Handwriting; ">Kid's Fashion Store</h1>
-  <div class="centered">
-   <a href="https://www.flipkart.com/clothing-and-accessories/pr?sid=clo&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys%2B%2526%2BBaby%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BBoys&p%5B%5D=facets.ideal_for%255B%255D%3DBaby%2BGirls&otracker=nmenu_sub_Baby%20%26%20Kids_0_Kids%20Clothing&otracker=nmenu_sub_Baby%20%26%20Kids_0_Kids%20Clothing&otracker=nmenu_sub_Baby%20%26%20Kids_0_Kids%20Clothing"> <img src="https://backend.insideiim.com/wp-content/uploads/2015/08/Flipkart-logo-insideiim.png" alt="Avatar woman" style="border-radius:0%;"> </a>
-   <h2>Flipkart Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-<div class="leften">
-   <a href="https://www.amazon.in/b/?_encoding=UTF8&node=9361420031&ref_=sv_top_ap_mega_3"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/1200px-Amazon_icon.svg.png" style="border-radius:0%;"> </a>
-     <h2>Amazon Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-<div class="righten">
-   <a href="https://www.myntra.com/shop/kids"> <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_930,h_620/https://aartisto.com/wp-content/uploads/2020/11/myntra-930x620.png" style="border-radius:0%;"> </a>
-    <h2>Myntra Fashion Store</h2>
-    <p>Click to visit!</p>
-  </div>
-</div>
-
-<a href="#one"><div class="split left">
-  <div class="centered">
-    <img src="https://tse4.mm.bing.net/th?id=OIP.i_XOaYd8LtAvlOSu_KaG1wHaHa&pid=Api&P=0" alt="Avatar woman">
-    <h2>Man's Fashion</h2>
-    <p>Discover latest fashion</p>
-  </div>
-</div>
-</a>
-
-<a href="#two" target="_top"><div class="split middle">
-  <div class="centered">
-    <img src="https://tse4.mm.bing.net/th?id=OIP.5hU0tIu-K0G89RLkvefqCgHaHa&pid=Api&P=0" alt="Avatar woman">
-    <h2>Women's Fashion</h2>
-    <p>Discover latest fashion</p>
-  </div>
-</div>
-</a>
-
-<a href="#three" target="_self">
-<div class="split right">
-  <div class="centered">
-    <img src="https://tse1.mm.bing.net/th?id=OIP.oZwlUdFnpWZfP3n54GnPdwHaKX&pid=Api&P=0" alt="Avatar man">
-    <h2>Kid's Fashion</h2>
-    <p>Discover latest fashion</p>
-  </div>
-</div>
-</a>
-
-<div class="dropdown">
-  <button class="dropbtn">Contact Us</button>
-  <div class="dropdown-content">
-  <a href="mailto:sagarthakre159@gmail.com">Send Email</a>
-  <a href="tel:+919301783377">Call us </a>
-  <a href="sms:+919301783377?body=hii">SMS us </a>
-  <a href="https://wa.me/+918458983148?text=hii">Send WhatsApp Message</a>
-  </div>
-</div>
-
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
 </body>
 </html>
+
